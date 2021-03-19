@@ -40,6 +40,14 @@ header nav ul li{
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+figure h2{
+    color: white;
+    margin: 0 40px 20px 0; 
+    font-size: 28px;
+    background-color: rgb(130, 238, 144);
+}
+
 #container{
     display:flex;  
     height: 20vh;
