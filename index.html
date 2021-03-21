@@ -1,87 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio02</title>
-</head>
-<body>
+  </head>
+
+  <body>
+    <!-- Header /Nav Bar -->
     <header>
-        <h1> Andrew Yu Portfolio</h1>
-        <nav>
-            <ul>
-                <li> <a href=".About-me">About Me</a></li>
-                <li> <a href=".Work">Work</a></li>
-                <li> <a href=".Contact-Me">Contact Me</a></li>
-                <li> <a href=".Resume">Resume</a></li>
-            </ul>
-         </nav> 
+      <h1>Andrew Yu Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#About-me">About Me</a></li>
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#Contact-Me">Contact Me</a></li>
+          <li><a href="#Resume">Resume</a></li>
+        </ul>
+      </nav>
     </header>
-<figure class="banner">
-    <h2> Cool Stuff Here!</h2>
-</figure>
 
-<main>
-    <section>
-        <article id="container">
-            <article class="About-Me" id="Column1">
-              About Me
-            </article>
-             <article id="Column2">
-               
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maiores possimus officiis vel! Praesentium consequatur debitis laboriosam quisquam, dicta exercitationem repellat earum quod iusto odit dolorem, similique ipsam, facere cupiditate!
-        
-               
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, unde quisquam quibusdam ea quidem reiciendis dolor sit officiis delectus, molestiae, vitae laudantium accusantium qui sunt ex quaerat et. Aliquam, delectus?
-                
-               this is my portfolio
-             </article>
-        </article>
-    </section>
-    <section>
-        <article id="container2">
-            <article class="Work" id="Column1">
-                Work
-            </article>
-            <article id="Column2">
-                <h2 class="Surf"> Surf Report</h2>
-                <p>Mern Stack</p>
-                <article class= "card">
-                    <h2 class="LED">LED Wall</h2>
-                    <p>Node/IoT </p>
-                    <h2 class="Calc">Calculator</h2>
-                    <p> React/Javascript/CSS </p>
-                    <h2 class="Puzzles">Pastel Puzzles </h2>
-                    <p>MERN Stack</p>
-                    <h2 class="Run">Run Buddy</h2>
-                    <p>HTML/CSS</p>
-                 </article>
-
-            </article>
-        </article>
-
+    <!-- Banner -->
+    <section class="banner">
+        <div>
+      <h2>Cool Stuff Here!</h2>
+      </div>
 
     </section>
 
-</main>
-    <footer id="container3">
-        <article id="Column1" class="Contact-Me">
-        Contact Me
-        </article>
-        <article id="Column2">
-            <ul>
-                <li>555.555.5555</li>
-                <li>Email.email@gmail.com</li>
-                <li>GitHub</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-            </ul>
-        </article>
-    </footer>
+    <main class="main">
+        <!-- About Me  -->
+        <section class="section-one" id="About-Me">
+            <h2>About Me</h2>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                maiores possimus officiis vel! Praesentium consequatur debitis
+                laboriosam quisquam, dicta exercitationem repellat earum quod iusto
+                odit dolorem, similique ipsam, facere cupiditate! 
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, unde quisquam
+                quibusdam ea quidem reiciendis dolor sit officiis delectus,
+                molestiae, vitae laudantium accusantium qui sunt ex quaerat et.
+                Aliquam, delectus? this is my portfolio
+              </p>
+            </div>
+          </section>
+
+          <section class="section-one" id="Work">
+                <h2>Work</h2>
+                <div class="flex-container">
+
+                    <a href="#" class="image project1">
+                        <div>
+                            <h3>Project 1</h3>
+                            <p>Subtext Here</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="image project2">
+                        <div>
+                            <h3> Project 2</h3>
+                            <p>Subtext Here</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="image project3">
+                        <div>
+                            <h3>Project 3</h3>
+                            <p>Subtext Here</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="image project4">
+                        <div>
+                            <h3>Project 4</h3>
+                            <p>Subtext Here</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="image project5">
+                        <div>
+                            <h3>Project 5</h3>
+                            <p>Subtext Here</p>
+                        </div>
+                    </a>
+
+                </div>
+          </section>
+
+        <section class="section-one contact" id="Contact-Me"> 
+            <h2>Contact Me</h2>
+            <div>
+                <a href="tel:+15555555555">555.555.5555</a>
+                <a href="mailto:email@email.com"> email@email.com</a>
+                <a href="https://github.com/iGotYu">GitHub</a>
 
 
-    
-</body>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+  </body>
 </html>

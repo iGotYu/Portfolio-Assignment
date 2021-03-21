@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --main:rgb(114, 172, 206);
+    --sub: rgb(122, 231, 231);
+    --background: rgb(74, 113, 145); 
+    --white :white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: var(--main);
+    background-color: var(--white);
+    line-height: 1.5;
+}
+
+
+h1,
+h2,
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+header h1{
+    color: var(--white);
+    background-color: var(--sub);
+}
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    display:flex;
+    justify-content:flex-end;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+a{
+    color: var(--white);
+}
+
+.banner {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/pexels-photo-370799.jpeg"), linear-gradient(180deg, var(--sub) 0%, var(--main) 100%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+section  div h2{
+    color:var(--white); 
+    margin: 0 40px 20px 0; 
+    font-size: 28px;
+    background-color: rgb(130, 238, 144);
+}
+
+
+.main{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-one{
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.section-one > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--main);
+    font-size: 4vw;
+    line-height: 1.2;
+}
+
+.section-one > div{
+    flex: 0 0 77%;
+}
+
+.section-one p {
+    flex: 0 0 77%;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image{
+    border: 5px solid var(--sub);
+    background-color: var(--main);
+    color: var(--background);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 14px;
+}
+
+.image:first-child {
+    flex-basis: 100%;
+    min-height: 400px;
+}
+
+.image:hover {
+    background-color: black;
+}
+
+.image div{
+    background-color: var(--sub);
+    padding: 8px 10px;
+}
+
+.image h3{
+    font-size: 24px;
+}
+
+.contact div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact div a{
+    color: var(--background);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+
+.project1{
+    background-image: url("./images/Ocean.jpg");
+}
+
+.project2{
+    background-image: url("./images/LED.jpg");
+    }
+    
+.project3{
+        background-image: url("./images/calculator.jpg");
+    }
+    
+.project4{
+        background-image: url("./images/puzzle.jpg");
+    }
+    
+.project5{
+        background-image: url("./images/running.jpg");
+    }
