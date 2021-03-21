@@ -44,6 +44,10 @@ header{
 header h1{
     color: var(--white);
     background-color: var(--sub);
+    padding: 5px 1% 5px 6%;
+    margin: 0;
+    font-size: 3vw;
+    line-height: 1;
 }
 header nav{
     padding-top: 15px;
@@ -149,6 +153,7 @@ section  div h2{
 
 .image:hover {
     background-color: black;
+    opacity: 0.4;
 }
 
 .image div{
@@ -174,6 +179,8 @@ section  div h2{
     text-decoration: none;
     font-size: 20px;
     font-style: normal;
+    margin:  0 3px 0 1.5px;
+    display: inline-block
     
 }
 
@@ -196,3 +203,59 @@ section  div h2{
 .project5{
         background-image: url("./images/running.jpg");
     }
+
+
+@media screen and (max-width:980px){
+    header{
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1{
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+
+    header nav{
+        justify-content: center;
+    }
+
+    .section-one > h2,
+    .section-one > div{
+        flex: 0 0 100%;
+    }
+
+    .section-one > h2{
+        border-right: none;
+        border-bottom: 4px solid var(--main);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .image,
+    .image:first-child{
+        flex-basis: 100%;
+    }
+
+    .image:first-child{
+        min-height: 150px;
+    }
+
+    .banner{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact div{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
