@@ -130,7 +130,7 @@ section span a {
     justify-content: center;
 }
 
-/* pictures with links in the Work section */
+/* pictures with links in the Links section */
 .image{
     border: 5px solid var(--sub);
     background-color: var(--main);
@@ -187,7 +187,7 @@ section span a {
     
 }
 
-/* images for the Work Area */
+/* images for the Links Area */
 .project1{
     background-image: url("./images/disney.jpg");
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ section span a {
         background-size: contain;
     }
 
-/* changes based on web size */
+/* changes that are based on web size */
 
 @media screen and (max-width:980px){
     header{
