@@ -152,7 +152,7 @@ section  div h2{
 /* the First image in the section */
 .image:first-child {
     flex-basis: 100%;
-    min-height: 400px;
+    min-height: 600px;
 }
 
 .image:hover {
@@ -189,26 +189,37 @@ section  div h2{
 
 /* images for the Work Area */
 .project1{
-    background-image: url("./images/Ocean.jpg");
+    background-image: url("./images/disney.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;
+    background-position: center; */
+    background-size: auto;
 }
 
 .project2{
-    background-image: url("./images/LED.jpg");
+    background-image: url("./images/BabellBrigade.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     }
     
 .project3{
-        background-image: url("./images/calculator.jpg");
+        background-image: url("./images/WFP_logo_gray.png.crdownload");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    /*image repetitions are intentional   */
+.project4{
+        background-image: url("./images/twitch\ logo.jpg");
+        background-size: contain;
     }
     
-.project4{
-        background-image: url("./images/puzzle.jpg");
-    }
     
 .project5{
-        background-image: url("./images/running.jpg");
+        background-image: url("./images/froggy.png");
+        background-size: contain;
     }
 
-/* changes based on size */
+/* changes based on web size */
 
 @media screen and (max-width:980px){
     header{
