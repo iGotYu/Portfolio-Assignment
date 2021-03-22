@@ -69,9 +69,9 @@ header nav ul li{
 a{
     color: var(--white);
 }
-
+/* banner  */
 .banner {
-    height: 200px;
+    min-height: 30vh;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./images/pexels-photo-370799.jpeg"), linear-gradient(180deg, var(--sub) 0%, var(--main) 100%);
@@ -96,6 +96,8 @@ section  div h2{
     margin-right: auto;
 }
 
+
+/* Left Column */
 .section-one{
     margin: 25px 0;
     padding: 10px 0;
@@ -122,12 +124,13 @@ section  div h2{
 .section-one p {
     flex: 0 0 77%;
 }
-.flex-container{
+.flex-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* pictures with links in the Work section */
 .image{
     border: 5px solid var(--sub);
     background-color: var(--main);
@@ -146,14 +149,14 @@ section  div h2{
     font-size: 14px;
 }
 
+/* the First image in the section */
 .image:first-child {
     flex-basis: 100%;
     min-height: 400px;
 }
 
 .image:hover {
-    background-color: black;
-    opacity: 0.4;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .image div{
@@ -184,6 +187,7 @@ section  div h2{
     
 }
 
+/* images for the Work Area */
 .project1{
     background-image: url("./images/Ocean.jpg");
 }
@@ -204,6 +208,7 @@ section  div h2{
         background-image: url("./images/running.jpg");
     }
 
+/* changes based on size */
 
 @media screen and (max-width:980px){
     header{
