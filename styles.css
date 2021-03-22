@@ -202,7 +202,7 @@ section span a {
     
 .project3{
         background-image: url("./images/WFP_logo_gray.png.crdownload");
-        background-size: contain;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     /*image repetitions are intentional   */
