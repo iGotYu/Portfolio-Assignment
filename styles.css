@@ -82,7 +82,7 @@ a{
     align-items: flex-end;
 }
 
-section  div a {
+section span a {
     color:var(--white); 
     margin: 0 40px 20px 0; 
     font-size: 28px;
